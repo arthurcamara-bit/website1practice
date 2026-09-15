@@ -1,0 +1,282 @@
+<html>
+    <head>
+
+        <style>
+
+
+
+            #titleh1{
+                color: rgb(15, 17, 17);
+                size: 24px;
+                line-height: 32px;
+                font-family: Arial, sans-serif;
+                font-weight: 700;
+            }
+
+            #pTag{
+                color: rgb(86, 89, 89);
+                font-weight: 400;
+            }
+
+
+            .fullDiv{
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+                margin-bottom: 10px;
+
+            }
+
+            body{
+                display: flex;
+                gap: 15px;
+            }
+
+            .box{
+                display: flex;
+                gap: 5px;
+                flex-direction: column;
+                justify-content: center;
+                border-radius: 10px;
+                border: 1px solid rgb(245, 245, 245);
+                padding: 5px;
+            }
+
+            img.imageBread{
+                width: 240px;
+                height: 260px;
+                border-radius: 30px;
+                padding: 10px;
+                transition: all 0.5s ease-in-out;
+
+            }
+
+
+            .imageBread:hover{
+                filter: brightness(1.05);
+                transform: scale(1.03);
+            }
+
+            .itemName{
+                text-align: center;
+                transition: all 0.5s ease-in;
+                color: rgb(18, 21, 21);
+            }
+            
+            .itemname:hover{
+                color: rgb(196, 85, 0);
+            }
+
+            
+
+            .Carrinho{
+                background-color: #FECE14;
+                border-radius: 20px;
+                height: 28px;
+                width: 245px;
+                padding: 5px;
+                font-weight: bold;
+                text-align: center;
+                text-align: bottom;
+                padding-top: 10px;
+                padding-left: 5px;
+                padding-right: 5px ;
+                padding-bottom: 10px;
+                font-size: 18px;
+                transition: all 0.5s ease-in;
+            }
+
+            .Carrinho:hover{
+                filter: brightness(0.95);
+                box-shadow: 0px 4px 6px black;
+            }
+
+            .sidebar{
+                 border: 1px solid rgb(245, 245, 245);
+                 display: flex;
+                 flex-direction: column;
+                 padding: 15px;
+                 transition: all 0.5s ease-in;
+            }
+
+            #containsEverything{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .Carrinho:active{
+                transition: all 0.5s ease-in-out;
+                filter: brightness(1.1);
+                width: 240px;
+                height: 21px;
+            }
+
+            #endText{
+                text-align: center;
+                margin: 20px;
+            }
+
+            #headthing{
+                margin: 10px;
+                gap: 10px;
+            }
+
+            #breadtypes{
+                color: rgb(196, 85, 0);
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+       
+
+        <div class = "sidebar">
+            <h1 class="itemName" id = "breadtypes">Bread Types:</h1>
+            <h2 class="itemName">White Bread</h2>
+            <h2 class="itemName">Italian Bread</h2>
+            <h2 class="itemName">SourDough Bread</h2>
+            <h2 class="itemName">Baguette</h2>
+        </div>
+
+        <div id = "containsEverything">
+
+            <div id = "headthing">
+                <h1 id = "titleh1">Resultados</h1>
+                <p id = "pTag">Consulte as paginas dos produtos para ver outras opcoes de compra. O preco e outros detalhes variam de acordo com o tamanho e a cor do produto.</p>
+            </div>
+
+        <div class = "fullDiv">
+            
+
+
+
+            <div class = "box">
+
+                <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrKMYhL-Wy2F74tB8LFF6LaLOY5v5Hsf8xmiNmmm4HCg&s=10" class = "imageBread">
+                <h3 class = "itemName">White Bread</h3>
+                <p class = "Carrinho">Adicionar ao Carrinho</p>
+
+            </div>
+
+            <div class = "box" id = "smallDiv1">
+                
+                <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Mom-s-Italian-Bread_EXPS_TOHcom24_41847_P2_MD_04_19_2b.jpg" class="imageBread">
+
+                <h3 class = "itemName">Italian Bread</h3>
+
+                <p class = "Carrinho">Adicionar ao Carrinho</p>
+
+            </div>
+
+            <div class = "box" id = "smallDiv2">
+                <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBF6tnf7Bz_V__u-uzMBOnhuNiKe2Se9OHSfjUXBPMWTOwWZjxPBfbXY&s=10" class = "imageBread">
+
+                <h3 class = "itemName">SourDough</h3>
+
+                <p class = "Carrinho">Adicionar ao Carrinho</p>
+            </div>
+
+            <div class = "box" id = "smallDiv3">
+                
+                <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS86uXNuW7mtD-shsebhEa-eZKILa1eBb5i9-e5JlmRlA&s=10" class = "imageBread">
+
+                <h3 class = "itemName">Baguette</h3>
+
+                <p class = "Carrinho">Adicionar ao Carrinho</p>
+
+            </div>
+
+        </div>
+
+        <div class = "fullDiv">
+            <div class = "box">
+
+                <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrKMYhL-Wy2F74tB8LFF6LaLOY5v5Hsf8xmiNmmm4HCg&s=10" class = "imageBread">
+                <h3 class = "itemName">White Bread</h3>
+                <p class = "Carrinho">Adicionar ao Carrinho</p>
+
+            </div>
+
+            <div class = "box" id = "smallDiv1">
+                
+                <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Mom-s-Italian-Bread_EXPS_TOHcom24_41847_P2_MD_04_19_2b.jpg" class="imageBread">
+
+                <h3 class = "itemName">Italian Bread</h3>
+
+                <p class = "Carrinho">Adicionar ao Carrinho</p>
+
+            </div>
+
+            <div class = "box" id = "smallDiv2">
+                <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBF6tnf7Bz_V__u-uzMBOnhuNiKe2Se9OHSfjUXBPMWTOwWZjxPBfbXY&s=10" class = "imageBread">
+
+                <h3 class = "itemName">SourDough</h3>
+
+                <p class = "Carrinho">Adicionar ao Carrinho</p>
+            </div>
+
+            <div class = "box" id = "smallDiv3">
+                
+                <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS86uXNuW7mtD-shsebhEa-eZKILa1eBb5i9-e5JlmRlA&s=10" class = "imageBread">
+
+                <h3 class = "itemName">Baguette</h3>
+
+                <p class = "Carrinho">Adicionar ao Carrinho</p>
+
+            </div>
+
+        </div>
+
+
+                <div class = "fullDiv">
+            <div class = "box">
+
+                <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrKMYhL-Wy2F74tB8LFF6LaLOY5v5Hsf8xmiNmmm4HCg&s=10" class = "imageBread">
+                <h3 class = "itemName">White Bread</h3>
+                <p class = "Carrinho">Adicionar ao Carrinho</p>
+
+            </div>
+
+            <div class = "box" id = "smallDiv1">
+                
+                <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Mom-s-Italian-Bread_EXPS_TOHcom24_41847_P2_MD_04_19_2b.jpg" class="imageBread">
+
+                <h3 class = "itemName">Italian Bread</h3>
+
+                <p class = "Carrinho">Adicionar ao Carrinho</p>
+
+            </div>
+
+            <div class = "box" id = "smallDiv2">
+                <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBF6tnf7Bz_V__u-uzMBOnhuNiKe2Se9OHSfjUXBPMWTOwWZjxPBfbXY&s=10" class = "imageBread">
+
+                <h3 class = "itemName">SourDough</h3>
+
+                <p class = "Carrinho">Adicionar ao Carrinho</p>
+            </div>
+
+            <div class = "box" id = "smallDiv3">
+                
+                <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS86uXNuW7mtD-shsebhEa-eZKILa1eBb5i9-e5JlmRlA&s=10" class = "imageBread">
+
+                <h3 class = "itemName">Baguette</h3>
+
+                <p class = "Carrinho">Adicionar ao Carrinho</p>
+
+            </div>
+
+        </div>
+
+
+            <h1 id = "endText">Voce chegou ao <strong>FIM</strong> da lista de produtos</h1>
+
+        </div>
+
+        
+
+    </body>
+
+</html>
